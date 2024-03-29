@@ -12,7 +12,7 @@ const corsOptions = {
 };
 
 app.use(cors(corsOptions)); // Use this after the variable declaration
-const port = 3001;
+const port = 8080;
 app.use("/catalogue", catalogue);
 app.use("/catalogue-filters", catalogueFilters);
 app.use("/product", product);
